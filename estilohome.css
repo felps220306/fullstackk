@@ -1,0 +1,30 @@
+p1{
+    color:rgb(89, 49, 184);
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+li{
+    color:rgb(144, 166, 214);
+}
+body {
+    background-color:rgb(220, 230, 245);
+    margin-right: 48px;
+}
+.teste{
+    color:rgb(198, 240, 229);
+}
+#esteeumteste{
+    color:rgb(65, 47, 79)
+}
+a:hover{
+    color:rgb(159, 105, 167);
+}
+div{
+    height: 50px;
+    background-color:rgb(230, 194, 212)
+ 
+}
