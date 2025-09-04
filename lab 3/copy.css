@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Sans-Serif";
+  background-color: #cfcfcf; /* fundo cinza mais próximo */
+  color: #000;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ffe5b4; /* bege igual ao print */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 5px solid black;
+}
+
+header h1 {
+  text-align: center;
+  flex-grow: 1;
+  font-size: 30pt;
+  color: darkgreen;
+  margin: 0;
+}
+
+.logo-esq, .logo-dir {
+  width: 120px; 
+  height: auto;
+}
+
+
+nav {
+  background-color: lightskyblue; 
+  text-align: center;
+  padding: 8px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+ color: indigo;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkred;
+  font-size: 14pt;
+}
+
+nav a:hover {
+  color: darkred;
+}
+
+
+.conteudo {
+  padding: 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.conteudo h2 {
+  margin-bottom: 15px;
+  font-size: 22pt;
+  color: black;
+}
+
+.conteudo p {
+  font-size: 20pt; 
+  text-align: justify;
+}
+
+
+.livros {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.livros img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid black; 
+}
+
+
+.midia {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.midia iframe {
+  border: none;
+}
+
+
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px dashed red; 
+  width: 50%;
+  font-size: 16pt;
+color: red;
+}
+
+th, td {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+
+
+.links {
+  background-color: yellow;
+  padding: 1px;
+  width: 70%;
+  margin: 8px auto;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 14pt;
+  border: 1px solid black;
+color: darkred;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe5b4;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 5px solid black;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 15pt;
+}
+
+footer img {
+  width: 100px; 
+  height: auto;
+}
+
+.conteudo p {
+  font-size: 20pt;
+  text-align: center;
+  color: indigo; 
+ font-family:sans-serif;
+}
+
+.links h2 {
+  text-align: left;   
+  margin-left: 10px;  
+  color: purple;      
+}
+
+.links p {
+  text-align: left;
+  margin-left: 15px;
+  color: purple;
+}
