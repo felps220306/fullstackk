@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adivinhação (0–99)</title>
+
+  <!-- CSS da página -->
+  <link rel="stylesheet" href="guess.css" />
+
+  <!-- JS da página -->
+  <script defer src="guess.js"></script>
+</head>
+<body>
+  <main id="page" class="container">
+    <h1>Adivinhação 0–99</h1>
+
+    <p id="status" class="status">Digite um número entre 0 e 99 e clique em “Chutar”.</p>
+
+    <form id="formGuess" class="form">
+      <input
+        type="number"
+        id="palpite"
+        min="0"
+        max="99"
+        required
+        placeholder="Seu palpite (0–99)"
+      />
+      <button type="submit" id="btnChutar">Chutar</button>
+      <button type="button" id="btnReset">Recomeçar</button>
+    </form>
+  </main>
+</body>
+</html>
